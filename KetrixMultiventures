@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ketrix Multiventures Pvt. Ltd.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Ketrix</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Empowering Ideas. Engineering Growth.</h1>
+    <p>Strategic consulting across infrastructure, finance, design, and development.</p>
+    <a href="#contact" class="cta-button">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Ketrix</h2>
+    <p>Founded by Alok Patnaik, Ketrix Multiventures Pvt. Ltd. is a visionary consulting firm based in Bhubaneswar, Odisha. We specialize in infrastructure, agriculture, finance, architecture, and design — blending strategy with creativity to build future-ready ventures.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>Business Consulting</h3>
+        <p>Strategic advisory for startups, MSMEs, and large-scale ventures.</p>
+      </div>
+      <div class="service-card">
+        <h3>Project Documentation</h3>
+        <p>Legal, compliance, and approval-ready documentation for infrastructure and development projects.</p>
+      </div>
+      <div class="service-card">
+        <h3>Branding & Design</h3>
+        <p>Logos, brochures, animated intros, and visual storytelling that reflect your identity.</p>
+      </div>
+      <div class="service-card">
+        <h3>Finance & DSA Services</h3>
+        <p>Lead generation, customer acquisition, and strategic finance solutions.</p>
+      </div>
+      <div class="service-card">
+        <h3>HR & Operational Tools</h3>
+        <p>Custom salary calculators, credentialing systems, and HR documentation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <ul>
+      <li>Eco Resort Portfolio – Keonjhar, Odisha</li>
+      <li>Empanelment Documentation – BDA Bhubaneswar</li>
+      <li>DSA Finance Network Expansion – Bhubaneswar</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ketrix Multiventures Pvt. Ltd. | Bhubaneswar, Odisha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
